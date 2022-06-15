@@ -1,3 +1,3 @@
-﻿Public Class CLsEntKasir
+﻿Public Class CLsCtlKategori
 
 End Class

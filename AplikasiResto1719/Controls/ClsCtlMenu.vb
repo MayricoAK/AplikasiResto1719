@@ -1,3 +1,3 @@
-﻿Public Class CLsEntKasir
+﻿Public Class CLsCtlMenu
 
 End Class

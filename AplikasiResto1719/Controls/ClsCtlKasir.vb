@@ -1,3 +1,3 @@
-﻿Public Class CLsEntKasir
+﻿Public Class CLsCtlKasir
 
 End Class
