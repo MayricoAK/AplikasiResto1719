@@ -77,6 +77,7 @@
     <Compile Include="Controls\ClsCtlMenu.vb" />
     <Compile Include="Controls\ClsCtlKategori.vb" />
     <Compile Include="Controls\ClsCtlKasir.vb" />
+    <Compile Include="Controls\InfProses.vb" />
     <Compile Include="Entity\ClsEntDetailJual.vb" />
     <Compile Include="Entity\ClsEntKasir.vb" />
     <Compile Include="Entity\ClsEntKategori.vb" />
@@ -118,6 +119,8 @@
     <Compile Include="Form\FormPenjualan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Global\ModKoneksiDB.vb" />
+    <Compile Include="Global\ModObjekdanFungsi.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -172,8 +175,6 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Global\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -2,7 +2,7 @@
     Private _idKategori As String
     Private _namaKategori As String
 
-    Public Property idKategori As String
+    Public Property IdKategori As String
         Get
             Return _idKategori
         End Get
@@ -11,7 +11,7 @@
         End Set
     End Property
 
-    Public Property namaKategori As String
+    Public Property NamaKategori As String
         Get
             Return _namaKategori
         End Get
