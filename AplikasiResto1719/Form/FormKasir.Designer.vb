@@ -39,11 +39,11 @@ Partial Class FormKasir
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.DGKasir = New System.Windows.Forms.DataGridView()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGKasir, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtCari
@@ -199,15 +199,15 @@ Partial Class FormKasir
         Me.Label1.TabIndex = 20
         Me.Label1.Text = "ID Kategori"
         '
-        'DataGridView1
+        'DGKasir
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(39, 336)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowHeadersWidth = 51
-        Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(528, 153)
-        Me.DataGridView1.TabIndex = 31
+        Me.DGKasir.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGKasir.Location = New System.Drawing.Point(39, 336)
+        Me.DGKasir.Name = "DGKasir"
+        Me.DGKasir.RowHeadersWidth = 51
+        Me.DGKasir.RowTemplate.Height = 24
+        Me.DGKasir.Size = New System.Drawing.Size(528, 153)
+        Me.DGKasir.TabIndex = 31
         '
         'txtPassword
         '
@@ -246,13 +246,13 @@ Partial Class FormKasir
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.DGKasir)
         Me.Controls.Add(Me.txtPassword)
         Me.Name = "FormKasir"
         Me.Text = "FormKasir"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGKasir, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -274,7 +274,7 @@ Partial Class FormKasir
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents DGKasir As DataGridView
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents Label5 As Label
 End Class

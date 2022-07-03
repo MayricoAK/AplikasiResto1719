@@ -1,9 +1,10 @@
 ﻿Public Class FormKasir
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged
-
+    Private Sub RefreshGrid()
+        DTGrid = KontrolKasir.TampilData.ToTable
+        DGKasir.DataSource = DTGrid
     End Sub
 
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
+    Private Sub FormKasir_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        RefreshGrid()
     End Sub
 End Class

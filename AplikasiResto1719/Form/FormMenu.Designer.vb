@@ -51,7 +51,7 @@ Partial Class FormMenu
         Me.GroupBox1.Controls.Add(Me.txtCari)
         Me.GroupBox1.Location = New System.Drawing.Point(53, 244)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(394, 64)
+        Me.GroupBox1.Size = New System.Drawing.Size(463, 70)
         Me.GroupBox1.TabIndex = 14
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Masukkan nama menu yang dicari"
@@ -61,7 +61,7 @@ Partial Class FormMenu
         Me.btnCari.BackColor = System.Drawing.Color.SteelBlue
         Me.btnCari.BackgroundImage = CType(resources.GetObject("btnCari.BackgroundImage"), System.Drawing.Image)
         Me.btnCari.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnCari.Location = New System.Drawing.Point(318, 11)
+        Me.btnCari.Location = New System.Drawing.Point(389, 12)
         Me.btnCari.Name = "btnCari"
         Me.btnCari.Size = New System.Drawing.Size(63, 52)
         Me.btnCari.TabIndex = 2
@@ -71,7 +71,7 @@ Partial Class FormMenu
         '
         Me.txtCari.Location = New System.Drawing.Point(22, 26)
         Me.txtCari.Name = "txtCari"
-        Me.txtCari.Size = New System.Drawing.Size(271, 22)
+        Me.txtCari.Size = New System.Drawing.Size(338, 22)
         Me.txtCari.TabIndex = 1
         '
         'btnHapus
@@ -79,7 +79,7 @@ Partial Class FormMenu
         Me.btnHapus.BackColor = System.Drawing.Color.SteelBlue
         Me.btnHapus.BackgroundImage = CType(resources.GetObject("btnHapus.BackgroundImage"), System.Drawing.Image)
         Me.btnHapus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnHapus.Location = New System.Drawing.Point(506, 247)
+        Me.btnHapus.Location = New System.Drawing.Point(624, 262)
         Me.btnHapus.Name = "btnHapus"
         Me.btnHapus.Size = New System.Drawing.Size(63, 52)
         Me.btnHapus.TabIndex = 9
@@ -90,7 +90,7 @@ Partial Class FormMenu
         Me.btnBatal.BackColor = System.Drawing.Color.SteelBlue
         Me.btnBatal.BackgroundImage = CType(resources.GetObject("btnBatal.BackgroundImage"), System.Drawing.Image)
         Me.btnBatal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnBatal.Location = New System.Drawing.Point(506, 189)
+        Me.btnBatal.Location = New System.Drawing.Point(624, 204)
         Me.btnBatal.Name = "btnBatal"
         Me.btnBatal.Size = New System.Drawing.Size(63, 52)
         Me.btnBatal.TabIndex = 10
@@ -101,7 +101,7 @@ Partial Class FormMenu
         Me.btnSimpan.BackColor = System.Drawing.Color.SteelBlue
         Me.btnSimpan.BackgroundImage = CType(resources.GetObject("btnSimpan.BackgroundImage"), System.Drawing.Image)
         Me.btnSimpan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnSimpan.Location = New System.Drawing.Point(506, 131)
+        Me.btnSimpan.Location = New System.Drawing.Point(624, 146)
         Me.btnSimpan.Name = "btnSimpan"
         Me.btnSimpan.Size = New System.Drawing.Size(63, 52)
         Me.btnSimpan.TabIndex = 11
@@ -112,7 +112,7 @@ Partial Class FormMenu
         Me.btnUbah.BackColor = System.Drawing.Color.SteelBlue
         Me.btnUbah.BackgroundImage = CType(resources.GetObject("btnUbah.BackgroundImage"), System.Drawing.Image)
         Me.btnUbah.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnUbah.Location = New System.Drawing.Point(506, 73)
+        Me.btnUbah.Location = New System.Drawing.Point(624, 88)
         Me.btnUbah.Name = "btnUbah"
         Me.btnUbah.Size = New System.Drawing.Size(63, 52)
         Me.btnUbah.TabIndex = 12
@@ -123,7 +123,7 @@ Partial Class FormMenu
         Me.btnTambah.BackColor = System.Drawing.Color.SteelBlue
         Me.btnTambah.BackgroundImage = CType(resources.GetObject("btnTambah.BackgroundImage"), System.Drawing.Image)
         Me.btnTambah.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnTambah.Location = New System.Drawing.Point(506, 15)
+        Me.btnTambah.Location = New System.Drawing.Point(624, 30)
         Me.btnTambah.Name = "btnTambah"
         Me.btnTambah.Size = New System.Drawing.Size(63, 52)
         Me.btnTambah.TabIndex = 13
@@ -133,14 +133,14 @@ Partial Class FormMenu
         '
         Me.txtHarga.Location = New System.Drawing.Point(204, 160)
         Me.txtHarga.Name = "txtHarga"
-        Me.txtHarga.Size = New System.Drawing.Size(136, 22)
+        Me.txtHarga.Size = New System.Drawing.Size(301, 22)
         Me.txtHarga.TabIndex = 7
         '
         'txtIDMenu
         '
         Me.txtIDMenu.Location = New System.Drawing.Point(204, 30)
         Me.txtIDMenu.Name = "txtIDMenu"
-        Me.txtIDMenu.Size = New System.Drawing.Size(136, 22)
+        Me.txtIDMenu.Size = New System.Drawing.Size(243, 22)
         Me.txtIDMenu.TabIndex = 8
         '
         'Label2
@@ -170,7 +170,7 @@ Partial Class FormMenu
         Me.DGMenu.Name = "DGMenu"
         Me.DGMenu.RowHeadersWidth = 51
         Me.DGMenu.RowTemplate.Height = 24
-        Me.DGMenu.Size = New System.Drawing.Size(516, 153)
+        Me.DGMenu.Size = New System.Drawing.Size(634, 183)
         Me.DGMenu.TabIndex = 15
         '
         'Label3
@@ -197,14 +197,14 @@ Partial Class FormMenu
         '
         Me.txtNama.Location = New System.Drawing.Point(204, 116)
         Me.txtNama.Name = "txtNama"
-        Me.txtNama.Size = New System.Drawing.Size(243, 22)
+        Me.txtNama.Size = New System.Drawing.Size(371, 22)
         Me.txtNama.TabIndex = 7
         '
         'txtKategori
         '
-        Me.txtKategori.Location = New System.Drawing.Point(346, 76)
+        Me.txtKategori.Location = New System.Drawing.Point(371, 76)
         Me.txtKategori.Name = "txtKategori"
-        Me.txtKategori.Size = New System.Drawing.Size(130, 22)
+        Me.txtKategori.Size = New System.Drawing.Size(204, 22)
         Me.txtKategori.TabIndex = 7
         '
         'cmbKategori
@@ -212,14 +212,14 @@ Partial Class FormMenu
         Me.cmbKategori.FormattingEnabled = True
         Me.cmbKategori.Location = New System.Drawing.Point(204, 74)
         Me.cmbKategori.Name = "cmbKategori"
-        Me.cmbKategori.Size = New System.Drawing.Size(136, 24)
+        Me.cmbKategori.Size = New System.Drawing.Size(152, 24)
         Me.cmbKategori.TabIndex = 16
         '
         'FormMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(621, 494)
+        Me.ClientSize = New System.Drawing.Size(738, 524)
         Me.Controls.Add(Me.cmbKategori)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnHapus)
